@@ -85,6 +85,8 @@ img:hover {
     /* width: 600px; */
     display: grid;
     grid-template-columns: auto auto;
+    margin: none;
+    justify-content: center;
   }
   img {
     width: 150px;
