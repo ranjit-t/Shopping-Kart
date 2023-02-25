@@ -79,3 +79,41 @@ img:hover {
   position: absolute;
   right: 15%;
 }
+
+@media (max-width: 900px) {
+  .products {
+    /* width: 600px; */
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+  }
+  .product {
+    width: 150px;
+  }
+  .kart-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: auto;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    border: 1px solid grey;
+    padding: 10px;
+  }
+  .kart-title {
+    position: relative;
+    right: 0%;
+  }
+  .change-buttons {
+    position: relative;
+    right: 0%;
+  }
+  .price-para {
+    position: relative;
+    right: 0%;
+  }
+}

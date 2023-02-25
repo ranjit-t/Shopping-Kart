@@ -52,7 +52,7 @@ function App() {
     },
     {
       id: "6",
-      title: "Camera lENS",
+      title: "Camera Lens",
       price: 499,
       numinkart: 0,
       src: "https://images.unsplash.com/photo-1582994254571-52c62d96ebab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
