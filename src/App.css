@@ -1,12 +1,13 @@
 .App {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
   width: 100%;
 }
 
 img {
   width: 200px;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
   transition: all 0.5s;
 }
 img:hover {
@@ -29,6 +30,8 @@ img:hover {
   border: 1px solid grey;
   padding-bottom: 10px;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 .kart-products {
   display: flex;
@@ -45,11 +48,8 @@ img:hover {
   border: 1px solid grey;
   padding: 10px;
 }
-.kart-title {
+/* .kart-title {
   border-bottom: 2px solid black;
-}
-/* button {
-  width: 200px;
 } */
 
 .num-of-prods-in-kart {
@@ -57,4 +57,25 @@ img:hover {
   color: black;
   border-radius: 5px;
   width: 10px;
+}
+.kart-heading {
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+.kart {
+  margin-bottom: 50px;
+}
+
+.kart-title {
+  position: relative;
+  right: 35%;
+}
+.change-buttons {
+  position: absolute;
+  right: 45%;
+}
+.price-para {
+  position: absolute;
+  right: 15%;
 }
