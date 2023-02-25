@@ -1,38 +1,60 @@
 .App {
   text-align: center;
+  margin-top: 50px;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  width: 200px;
+  height: auto;
+  transition: all 0.5s;
+}
+img:hover {
+  /* width: 200px; */
+  /* height: auto; */
+  transform: scale(1.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.products {
+  /* width: 600px; */
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 50px;
+  row-gap: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.product {
+  width: 200px;
+  border: 1px solid grey;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+.kart-products {
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
+}
+.kart-product {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  column-gap: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 1px solid grey;
+  padding: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.kart-title {
+  border-bottom: 2px solid black;
 }
+/* button {
+  width: 200px;
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.num-of-prods-in-kart {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  width: 10px;
 }
